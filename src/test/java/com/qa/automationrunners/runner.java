@@ -11,6 +11,7 @@ import io.cucumber.junit.Cucumber;
         plugin = {"pretty", // to generate reports
             "html:target/html/htmlreport.html",
             "json:target/json/file.json",
+            
             },
         
       monochrome = true,
